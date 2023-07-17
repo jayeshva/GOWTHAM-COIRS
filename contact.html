@@ -104,7 +104,7 @@
 
                                     <div class="navbar-collapse collapse clearfix">
                                         <ul class="navigation clearfix">
-                                            <li class="current"><a href="index.html">Home</a>
+                                            <li><a href="index.html">Home</a>
                                             </li>
                                     
                                             <li class="dropdown"><a href="products.html">Products</a>
@@ -122,7 +122,7 @@
                                             <li><a href="about.html">About</a>
                                         
                                             </li>
-                                            <li><a href="contact.html">Contact Us</a></li>
+                                            <li class="current"><a href="contact.html">Contact Us</a></li>
 
                                         </ul>
                                     </div>
@@ -164,7 +164,7 @@
 
                             <div class="navbar-collapse collapse clearfix">
                                 <ul class="navigation clearfix">
-                                    <li class="current"><a href="index.html">Home</a>
+                                    <li ><a href="index.html">Home</a>
                                     </li>
                             
                                     <li class="dropdown"><a href="products.html">Products</a>
@@ -182,7 +182,7 @@
                                     <li><a href="about.html">About</a>
                                 
                                     </li>
-                                    <li><a href="contact.html">Contact Us</a></li>
+                                    <li class="current"><a href="contact.html">Contact Us</a></li>
 
                                 </ul>
                             </div>
@@ -198,12 +198,78 @@
 
         </header>
         <!--End Main Header -->
-        <section>
-            <div class="container">
-            <div class="sec-title">
-                <h2>Contact <span>Details</span></h2>
+        <section class="contact-section">
+            <div class="auto-container">
+                
+                
+                <div class="row clearfix">
+                
+                    <!--Form Container-->
+                    <div class="form-column col-md-8 col-sm-12 col-xs-12">
+                    
+                        <div class="sec-title">
+                            <h2>Contact <span>Us</span></h2>
+                        </div>
+                        
+                        <!--Contact Form-->
+                        <div class="default-form contact-form" style="margin-top: -25px;">
+                            <form method="post" action="sendemail.php" id="contact-form">
+                                <div class="row clearfix">
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <div class="form-group" >
+                                            <input type="text" name="username" value="" placeholder="Name" required style="border-color: rgb(205, 205, 205);">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <div class="form-group">
+                                            <input type="email" name="email" value="" placeholder="Email" required style="border-color: rgb(205, 205, 205);">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <div class="form-group">
+                                            <input type="text" name="phone" value="" placeholder="Phone" style="border-color: rgb(205, 205, 205);">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <div class="form-group">
+                                            <input type="text" name="subject" value="" placeholder="Subject" style="border-color: rgb(205, 205, 205);">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-sm-12 col-xs-12">
+                                        <div class="form-group">
+                                            <textarea name="message" placeholder="Message" required style="border-color: rgb(205, 205, 205);"></textarea>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                                        <button type="submit" class="theme-btn btn-style-one">send Message</button>
+                                    </div>
+                                    
+                                </div>
+                            </form>
+                        </div><!--End Contact Form-->
+                        
+                    </div>
+                    
+                    <!--Info Column-->
+                    <div class="info-column col-md-4 col-sm-12 col-xs-12">
+                        <div class="sec-title"><h2>Get in <span>Touch with us</span></h2></div>
+                        <div class="text" style="margin-top: -25px;">Gowtham Coir Industry is a trusted and reliable source for high-quality coir-based products. With a commitment to sustainability and environmental responsibility, the company is a leader in the industry and continues to innovate and expand its product offerings to meet the changing needs of customers around the world.</div>
+                        
+                        <ul class="contact-info">
+                            <li><div class="icon-box"><span class="fa fa-phone" style="font-size:large;"></span></div>(+91) 93608 34032 <br>(+91) 80728 08168</li>
+                            <a href="mailto:gowthamcoirs@gmail.com"><li><div class="icon-box"><span class="fa fa-envelope-o" style="font-size:large;"></span></div>gowthamcoirs@gmail.com</li></a>
+                            <li><div class="icon-box"><span class="fa fa-map-marker" style="font-size:large;"></span></div>309/1C, Sundamedu, Varathampalayam, P.Pachapalayam, Kangeyam, <br>Tirupur, Tamilnadu, India - 638701</li>
+                        </ul>
+                        
+                    </div>
+                    
+                </div>
+    
+    
+    
+    
             </div>
-        </div>
         </section>
 
 
@@ -264,9 +330,10 @@
                                     <div class="footer-widget contact-column">
                                         <h3>Get In Touch</h3>
                                         <ul class="contact-info">
-                                            <li><i class="icon-stamp"></i><span>Address: </span>Varathampalayam, Kangeyam, Tirupur, Tamilnadu, India - 638701</li>
-                                            <li><i class="icon-telephone"></i> <span> Phone: </span>(+91) 93608 34032 &amp; <br>(+91) 80728 08168</li>
-                                            <li><i class="icon-letter2"></i><span>Email: </span>gowthamcoirs@gmail.com</li>
+                                            <li><i class="icon-stamp"></i><span>Address: </span>309/1C, Sundamedu, Varathampalayam, P.Pachapalayam, Kangeyam, Tirupur, Tamilnadu, India - 638701</li>
+                                            <a href="tel:+919360834032" id="nothover"><li id="nothover"><i class="icon-telephone"></i> <span> Phone: </span>(+91) 93608 34032</a><br>
+                                            <a href="tel:+918072808168" id="nothover">(+91) 80728 08168</li></a>
+                                            <a href="mailto:gowthamcoirs@gmail.com" ><li><i class="icon-letter2"></i><span>Email: </span>gowthamcoirs@gmail.com</li></a>
                                         </ul>
                                     </div>
 

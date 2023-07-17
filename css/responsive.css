@@ -29,6 +29,7 @@
     .main-footer .footer-widget.links-widget {
         margin-left: 50px;
     }
+    
 }
 
 @media only screen and (max-width: 1140px) {
@@ -424,7 +425,8 @@
     }
     .sec-title h2,
     .default-title h2 {
-        font-size: 20px;
+        font-size: 30px;
+        margin-left: 20px
     }
     .page-title h1 {
         font-size: 24px;

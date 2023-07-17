@@ -400,6 +400,10 @@ img {
     max-width: 100%;
     height: auto;
 }
+#founder{
+    height: 250px;
+    border-radius: 5px;
+}
 
 .default-overlay {
     position: absolute;
@@ -3380,9 +3384,11 @@ img {
 }
 
 .main-footer .contact-info li a {
-    color: #9b9b9b;
+    color: #1d6834;
 }
-
+#nothover :hover{
+    color: #1d6834;
+}
 .main-footer .news-widget .news-item {
     position: relative;
     padding-left: 95px;
@@ -5596,7 +5602,7 @@ img {
 
 .contact-section {
     position: relative;
-    padding: 100px 0px 70px;
+    padding: 10px 0px 0px;
 }
 
 .contact-section .map-box {
@@ -5636,7 +5642,7 @@ img {
     display: block;
     padding: 4px 0px 4px 50px;
     line-height: 24px;
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 15px;
     color: #888888;
     min-height: 32px;
