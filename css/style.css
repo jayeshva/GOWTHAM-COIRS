@@ -72,7 +72,9 @@ font-family: 'Roboto Slab', sans-serif;*/
 ====================================================================
 
  ***/
-
+.gow2{
+    display: none;
+}
 body {
     font-family: 'Hind', sans-serif;
     font-size: 15px;
@@ -82,6 +84,12 @@ body {
     background: #ffffff;
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
+}
+
+.footContainer{
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 a {
@@ -401,7 +409,7 @@ img {
     height: auto;
 }
 #founder{
-    height: 250px;
+    height: 200px;
     border-radius: 5px;
 }
 

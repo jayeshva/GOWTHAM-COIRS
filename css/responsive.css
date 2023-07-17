@@ -201,6 +201,9 @@
 }
 
 @media only screen and (max-width: 767px) {
+    #founderDiv{
+        margin-left: 80px;
+    }
     .main-header .nav-outer {
         padding-right: 0px;
     }
@@ -541,6 +544,10 @@
 }
 
 @media only screen and (max-width: 599px) {
+    
+    #founderDiv{
+        margin-left: 40px;
+    }
     .get-quote-section .quote-form {
         padding-left: 20px;
         padding-right: 20px;
@@ -577,4 +584,17 @@
     .blog-details .post-options .categories {
         margin-bottom: 70px;
     }
+}
+
+@media screen and (max-width:990px) {
+    .gow2{
+        display: block;
+    }
+    #mdrow2{
+        display:relative;
+    }
+    #mdrow1{
+        display: none;
+    }
+    
 }
